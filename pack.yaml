@@ -1,9 +1,9 @@
 ---
-ref: email
-name: email
+ref: email_aws
+name: email_aws
 description: E-Mail Actions/Sensors for StackStorm
 keywords:
-  - email
+  - email_aws
   - messaging
   - imap
 version: 1.1.3
