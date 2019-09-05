@@ -1,14 +1,14 @@
 ---
 name: Sample
 description: "Rule which sends an email when an email from johndoe@gmail.com is received"
-pack: email123
+pack: email
 enabled: true
 trigger:
-  type: email123.imap.message
+  type: email.imap.message
   parameters: {}
 criteria:
   trigger.subject:
-    pattern: vm create
+    pattern: vm_create
     type: contains
 action:
   ref: create_vm.create_instance
