@@ -1,10 +1,10 @@
 ---
 name: Sample
 description: "Rule which sends an email when an email from johndoe@gmail.com is received"
-pack: email
+pack: email_aws
 enabled: true
 trigger:
-  type: email.imap.message
+  type: email_aws.imap.message
   parameters: {}
 criteria:
   trigger.subject:
