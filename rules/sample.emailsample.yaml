@@ -11,7 +11,7 @@ criteria:
     pattern: create vm 
     type: contains
 action:
-  ref: create_vm.create_instance
+  ref: create_vm.wap
   parameters:
     ImageId: 'ami-0d2692b6acea72ee6'
     InstanceType: 't2.micro'
