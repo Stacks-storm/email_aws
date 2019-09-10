@@ -8,7 +8,7 @@ trigger:
   parameters: {}
 criteria:
   trigger.subject:
-    pattern: vm_create
+    pattern: create vm 
     type: contains
 action:
   ref: create_vm.create_instance
